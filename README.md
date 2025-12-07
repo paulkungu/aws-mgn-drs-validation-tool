@@ -23,9 +23,9 @@ sudo ./validate-mgn-drs-requirements.sh
 
 ```
 🔍 # What It Checks
-# Official AWS Requirements
+### Official AWS Requirements
 
-## Based on [AWS MGN Installation Requirements](https://docs.aws.amazon.com/mgn/latest/ug/installation-requirements.html) and [Supported Operating Systems Linux](https://docs.aws.amazon.com/mgn/latest/ug/Supported-Operating-Systems.html#Supported-Operating-Systems-Linux):
+#### Based on [AWS MGN Installation Requirements](https://docs.aws.amazon.com/mgn/latest/ug/installation-requirements.html) and [Supported Operating Systems Linux](https://docs.aws.amazon.com/mgn/latest/ug/Supported-Operating-Systems.html#Supported-Operating-Systems-Linux):
 
     ✅ Python 2.4+ or 3.0+
     ✅ Build tools (make, gcc, perl, tar, gawk, rpm)
