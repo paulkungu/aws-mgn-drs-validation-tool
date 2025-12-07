@@ -21,3 +21,45 @@ chmod +x validate-mgn-drs-requirements.sh
 # Run validation (requires root or sudo)
 sudo ./validate-mgn-drs-requirements.sh
 
+🔍 What It Checks
+Official AWS Requirements
+
+Based on AWS MGN Installation Requirements:
+
+    ✅ Python 2.4+ or 3.0+
+    ✅ Build tools (make, gcc, perl, tar, gawk, rpm)
+    ✅ Disk space (root, /tmp, /boot)
+    ✅ /tmp mount options (exec permission)
+    ✅ GRUB bootloader
+    ✅ Kernel headers matching running kernel
+    ✅ LVM2 and device-mapper
+    ✅ Free RAM (minimum 300MB)
+    ✅ System architecture (x86_64 only)
+    ✅ Kernel version compatibility
+
+
+
+📊 Visual Status Indicators
+
+    ✅ PASS - Requirement met, no action needed
+    ❌ FAIL - Critical issue that must be fixed before installation
+    ⚠️ WARNING - Non-blocking but recommended to address
+
+🖥️ Supported Operating Systems
+
+    Red Hat Enterprise Linux (RHEL) 6.x - 9.x
+    Oracle Linux 6.x - 9.x
+    Amazon Linux 1 & 2
+    Ubuntu 14.04 - 22.04
+    Debian 8 - 11
+    SUSE Linux Enterprise Server 12 - 15
+
+🙏 Acknowledgments
+
+    Developed in response to AWS Support Cases
+    Inspired by the AWS Labs MGN/DRS System Details Tool
+    Enhanced with automated validation and visual indicators
+
+📝 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
