@@ -21,10 +21,11 @@ chmod +x validate-mgn-drs-requirements.sh
 # Run validation (requires root or sudo)
 sudo ./validate-mgn-drs-requirements.sh
 
-🔍 What It Checks
-Official AWS Requirements
+```
+🔍 # What It Checks
+# Official AWS Requirements
 
-Based on AWS MGN Installation Requirements:
+# Based on AWS MGN Installation Requirements:
 
     ✅ Python 2.4+ or 3.0+
     ✅ Build tools (make, gcc, perl, tar, gawk, rpm)
@@ -49,7 +50,7 @@ Based on AWS MGN Installation Requirements:
 
     Red Hat Enterprise Linux (RHEL) 6.x - 9.x
     Oracle Linux 6.x - 9.x
-    Amazon Linux 1 & 2
+    Amazon Linux & AL2 AL2023
     Ubuntu 14.04 - 22.04
     Debian 8 - 11
     SUSE Linux Enterprise Server 12 - 15
