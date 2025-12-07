@@ -22,7 +22,7 @@ chmod +x validate-mgn-drs-requirements.sh
 sudo ./validate-mgn-drs-requirements.sh
 
 ```
-🔍 # What It Checks
+## 🔍 What It Checks
 ### Official AWS Requirements
 
 #### Based on [AWS MGN Installation Requirements](https://docs.aws.amazon.com/mgn/latest/ug/installation-requirements.html) and [Supported Operating Systems Linux](https://docs.aws.amazon.com/mgn/latest/ug/Supported-Operating-Systems.html#Supported-Operating-Systems-Linux):
