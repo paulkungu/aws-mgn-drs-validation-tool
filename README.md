@@ -13,7 +13,7 @@ This tool proactively validates all 20+ installation requirements documented by 
 
 ```bash
 # Download the script
-curl -O https://raw.githubusercontent.com/YOUR-USERNAME/aws-mgn-drs-validation-tool/main/validate-mgn-drs-requirements.sh
+curl -O https://raw.githubusercontent.com/paulkungu/aws-mgn-drs-validation-tool/main/validate-mgn-drs-requirements.sh
 
 # Make it executable
 chmod +x validate-mgn-drs-requirements.sh
