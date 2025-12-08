@@ -38,6 +38,25 @@ sudo ./validate-mgn-drs-requirements.sh
     ✅ System architecture (x86_64 only)
     ✅ Kernel version compatibility
 
+    
+1. ✅ **Python Installation** - Python 2.4+ or 3.0+
+2. ✅ **Build Tools** - make, gcc, perl, tar, gawk, rpm
+3. ✅ **Root Directory Space** - Minimum 2GB free
+4. ✅ **/tmp Directory Space** - Minimum 500MB free
+5. ✅ **/tmp Mount Options** - Must have exec permission
+6. ✅ **/boot Partition Space** - Minimum 50MB if separate partition
+7. ✅ **GRUB Bootloader** - GRUB 1 or GRUB 2 required
+8. ✅ **GPT Partitioning** - grub2-pc-modules for GPT systems
+9. ✅ **Secure Boot** - Must be disabled
+10. ✅ **dhclient Package** - Required for network configuration
+11. ✅ **Kernel Headers** - Must match running kernel version
+12. ✅ **Kernel Headers Directory** - Must not be a symbolic link
+13. ✅ **User Permissions** - Root or sudo access required
+14. ✅ **LVM2 and Device Mapper** - Required packages with version check
+15. ✅ **SELinux Status** - Warning if enforcing mode
+16. ✅ **Free RAM** - Minimum 300MB 
+17. ✅ **System Architecture** - x86_64 only, 32-bit not supported 
+18. ✅ **Kernel Version Compatibility** 
 
 
 📊 Visual Status Indicators
