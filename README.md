@@ -63,4 +63,4 @@ sudo ./validate-mgn-drs-requirements.sh
 
 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/paulkungu/aws-mgn-drs-validation-tool/blob/main/LICENSE) file for details.
