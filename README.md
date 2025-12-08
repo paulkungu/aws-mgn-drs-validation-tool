@@ -50,7 +50,7 @@ sudo ./validate-mgn-drs-requirements.sh
 
     Red Hat Enterprise Linux (RHEL) 6.x - 9.x
     Oracle Linux 6.x - 9.x
-    Amazon Linux & AL2 AL2023
+    Amazon Linux 1, 2 & 2023
     Ubuntu 14.04 - 22.04
     Debian 8 - 11
     SUSE Linux Enterprise Server 12 - 15
