@@ -63,9 +63,9 @@ sudo ./validate-mgn-drs-requirements.sh
     Debian 8 - 11
     SUSE Linux Enterprise Server 12 - 15
 
-📋 Sample Output
+## 📋 Sample Output
 
-================================================================================
+```================================================================================
 VALIDATION SUMMARY
 ================================================================================
 
@@ -81,7 +81,7 @@ Review all failures marked with ❌ FAIL above and apply recommended remediation
   • SELinux is in enforcing mode - Monitor audit logs if issues occur
   • ⚠️ fapolicyd is running - May cause silent installation failure
 
-================================================================================
+================================================================================```
 
 
 🚀 Use Cases
