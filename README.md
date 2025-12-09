@@ -26,7 +26,7 @@ sudo ./validate-mgn-drs-requirements.sh
 ### Official AWS Requirements
 
 #### Based on [AWS MGN Installation Requirements](https://docs.aws.amazon.com/mgn/latest/ug/installation-requirements.html) and [Supported Operating Systems Linux](https://docs.aws.amazon.com/mgn/latest/ug/Supported-Operating-Systems.html#Supported-Operating-Systems-Linux):
-
+```
 1. ✅ **Python Installation** - Python 2.4+ or 3.0+
 2. ✅ **Build Tools** - make, gcc, perl, tar, gawk, rpm
 3. ✅ **Root Directory Space** - Minimum 2GB free
@@ -47,7 +47,7 @@ sudo ./validate-mgn-drs-requirements.sh
 18. ✅ **Existing Agent Check** - Warns if AWS Replication Agent directory already exists
 19. ✅ **System Architecture** - x86_64 only, 32-bit not supported 
 20. ✅ **Kernel Version Compatibility** 
-
+```
 📊 Visual Status Indicators
 
     ✅ PASS - Requirement met, no action needed
