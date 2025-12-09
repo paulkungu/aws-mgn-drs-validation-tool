@@ -65,7 +65,8 @@ sudo ./validate-mgn-drs-requirements.sh
 
 ## 📋 Sample Output
 
-```================================================================================
+```
+================================================================================
 VALIDATION SUMMARY
 ================================================================================
 
@@ -81,7 +82,8 @@ Review all failures marked with ❌ FAIL above and apply recommended remediation
   • SELinux is in enforcing mode - Monitor audit logs if issues occur
   • ⚠️ fapolicyd is running - May cause silent installation failure
 
-================================================================================```
+================================================================================
+```
 
 
 🚀 Use Cases
